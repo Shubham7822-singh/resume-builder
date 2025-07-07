@@ -1,12 +1,37 @@
-# React + Vite
+📄 Resume Builder Web App
+A full-stack Resume Builder application that lets users create, preview, and manage professional resumes through an intuitive UI. Built with React, Tailwind CSS, Node.js, and MongoDB.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🔹 Frontend
+- 🖥️ User-friendly dashboard to manage resumes
 
-Currently, two official plugins are available:
+- 🧩 Multi-step resume editor (Profile, Education, Experience, etc.)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 👁️ Live preview with completion progress
 
-## Expanding the ESLint configuration
+- 📷 Automatic thumbnail generation using html2canvas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧾 View, edit, delete resumes with modal forms
+
+- 🔐 JWT-based login/signup
+
+- 🎨 Fully responsive UI with Tailwind CSS
+
+🔹 Backend
+- ⚙️ REST API built with Express.js
+
+- 🗃️ MongoDB for storing user and resume data
+
+- 🖼️ Multer for image uploads (thumbnails, profile pictures)
+
+- 📦 JWT Auth Middleware for protected routes
+
+- 🧹 Resume cleanup logic (deletes files on resume deletion)
+
+🛠️ Tech Stack
+- Frontend: React, Tailwind CSS, Axios, React Router
+
+- Backend: Node.js, Express.js, MongoDB, Multer, JWT
+
+- Utils: html2canvas, dotenv
+
