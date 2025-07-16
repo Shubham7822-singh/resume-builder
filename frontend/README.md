@@ -2,6 +2,7 @@
 A full-stack Resume Builder application that lets users create, preview, and manage professional resumes through an intuitive UI. Built with React, Tailwind CSS, Node.js, and MongoDB.
 
 ✨ Features
+
 🔹 Frontend
 - 🖥️ User-friendly dashboard to manage resumes
 
